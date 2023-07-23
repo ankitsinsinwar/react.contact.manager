@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "hari singh",
+      "age": "22",
+      "city": "noida2",
+      "email": "hari@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "neha singh",
+      "age": "21",
+      "city": "delhi6",
+      "email": "neha@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "rahul",
+      "age": "25",
+      "city": "gurugram",
+      "email": "rahulsharma@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "abhilash singh",
+      "age": null,
+      "city": null,
+      "email": "abhi@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "amit",
+      "age": null,
+      "city": null,
+      "email": "amit@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "ankitveer singh",
+      "age": null,
+      "city": null,
+      "email": "ankitveersingh@gmail.com",
+      "id": 8
+    }
+  ]
+}

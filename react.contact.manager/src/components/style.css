@@ -1,0 +1,11 @@
+.data{text-decoration: none; color: white; font-weight: bold;}
+.data4{text-decoration: none; color: white; font-weight: bold; justify-content: space-between;}
+.btn1{display: flex; justify-content: space-evenly; text-align: center; width: 100%; border: none; 
+    border-radius: 7px; background-color: rgba(0,0,0,0.2) !important;}
+
+.gap{margin-left: 30px;}
+
+.input{border: none;}
+.input:focus{outline: none;}
+.div{border: 1px solid blue; width: 220px;}
+.header{text-align: center;}
