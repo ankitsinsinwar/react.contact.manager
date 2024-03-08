@@ -3,6 +3,7 @@ import {Table} from "react-bootstrap"
 import{AiFillEdit,AiFillDelete} from "react-icons/ai"
 import {Link} from "react-router-dom"
 import {AiOutlineUser} from "react-icons/ai"
+import "./style.css"
 export default class UserRead extends Component{
 constructor(){
     super()
@@ -42,7 +43,7 @@ delete(id)
         return(
             <>
              <Table striped bordered hover>
-      <thead>
+      <thead >
         <tr>
           <th><h2>Contact List</h2></th>
           <th><button type="button" class="btn btn-primary color-white"><Link to="/create" className='data4'>Add Contact</Link></button></th>
@@ -52,7 +53,7 @@ delete(id)
         {this.state.list.map((item)=>{
             return(
                 <tr>
-                    <td>{item.name}<br/>{item.email}</td>
+                    <td>{item.name}<br/>{item.mobile}</td>
                     <td>
                         <Link to={'update/'+item.id}>
                         <AiFillEdit className='gap'/>

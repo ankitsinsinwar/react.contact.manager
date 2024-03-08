@@ -5,9 +5,7 @@ export default class UserCreate extends Component{
     super()
     this.state={
       name:null,
-      age:null,
-      city:null,
-      email:null
+      mobile:null
     }
   }
   submit=()=>{
@@ -35,8 +33,8 @@ export default class UserCreate extends Component{
         <Form.Control type="text" name="name" placeholder="enter name" onChange={(e)=>{this.setState({name:e.target.value})}}/>
       </Form.Group>
       <Form.Group className="mb-3">
-        <Form.Label>-Email-:</Form.Label>
-        <Form.Control type="email" name="email" placeholder="enter email" onChange={(e)=>{this.setState({email:e.target.value})}}/>
+        <Form.Label>Mobile No-:</Form.Label>
+        <Form.Control type="number" name="number" placeholder="enter number" onChange={(e)=>{this.setState({mobile:e.target.value})}}/>
       </Form.Group>
       <Button variant="primary" type="submit" onClick={this.submit}>
         Submit

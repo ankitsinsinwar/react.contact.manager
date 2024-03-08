@@ -35,9 +35,9 @@ export default class UserSearch extends Component{
       <thead>
         <tr>
           
-          <th>name</th>
+          <th>Name</th>
         
-          <th>email</th>
+          <th>Mobile No.</th>
         </tr>
       </thead>
       {this.state.searchdata?<tbody>
@@ -47,7 +47,7 @@ export default class UserSearch extends Component{
           
           <th>{item.name}</th>
          
-          <th>{item.email}</th>
+          <th>{item.mobile}</th>
         </tr>
             )
         })}
